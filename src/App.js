@@ -10,8 +10,8 @@ function App() {
   return (
     <>
     <Routes>
-      <Route path="/" element={<Home />} /> // we are adding address...
-      <Route path="/project" element={<Project />} /> 
+      <Route path="/" element={<Home />} /> 
+      <Route path="/projects" element={<Project />} /> 
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
     </Routes>

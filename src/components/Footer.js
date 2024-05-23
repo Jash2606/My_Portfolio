@@ -24,7 +24,7 @@ import { FaFacebook, FaGithub, FaHome, FaLinkedin, FaMailBulk , FaPhone} from 'r
                 </div>
             </div>
             <div className="right">
-                <h4>Portfolio</h4>
+                <h4>About me</h4>
                 <p> This is me Jash Savaliya , Curious Learner and Explorer First Year UG Student at Scaler School Of Technology. </p>
                 <div className="social">
                     <FaFacebook size={20} style={{color:"#fff", marginRight:"1rem"}}/>
