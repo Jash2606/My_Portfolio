@@ -1,11 +1,21 @@
 import "./NavbarStyle.css";
 
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
+
+    const[color,setcolor] = useState(false);
+    const changeColor = () => {
+        if(window.scrollY >= 100 ){
+            setcolor(true);
+        }else{
+            setcolor(false);
+        }
+    }
+    window.addEventListener('scroll',changeColor);
   return (
-    <div className="header">
+    <div className={color ? "header header-bg" : "header"}>
         <Link to="/">
             <h1>Portfolio</h1>
         </Link>
