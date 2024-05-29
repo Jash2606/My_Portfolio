@@ -24,7 +24,8 @@
     font-size: 1.2rem;
     font-weight: 500;
 }
-.nav-menu ul a::after{
+
+.nav-menu  a::after{
     content: "";
     display: block;          
     height: 2px;
@@ -32,8 +33,9 @@
     background-color: red;
     text-decoration: underline;
     transition:0.3s ease;
-}
-
-.nav-menu ul a:hover::after{
+  }
+  
+  .nav-menu  a:hover::after{
     width: 100%;
-}
+  }
+  
