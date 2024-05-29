@@ -24,3 +24,16 @@
     font-size: 1.2rem;
     font-weight: 500;
 }
+.nav-menu ul a::after{
+    content: "";
+    display: block;          
+    height: 2px;
+    width: 0;
+    background-color: red;
+    text-decoration: underline;
+    transition:0.3s ease;
+}
+
+.nav-menu ul a:hover::after{
+    width: 100%;
+}
