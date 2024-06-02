@@ -10,7 +10,7 @@ const WorkCard = (props) => {
                     <p> {props.text} </p>
                     <div className='pro-btns'>
                         <NavLink to={props.view} className="btn"> View </NavLink>
-                        <NavLink to="https://github.com/yasharya2901/Python-Price-Scrapper" className="btn"> Source </NavLink>
+                        <NavLink to="https://github.com/Jash2606?tab=repositories" className="btn"> Source </NavLink>
                     </div>    
                 </div>
             </div>

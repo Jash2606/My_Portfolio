@@ -4,12 +4,18 @@ import Footer from '../components/Footer'
 import HeroImg2 from '../components/HeroImg2'
 import Cardtype from '../components/CardType.jsx'
 import Work from '../components/Work.js'
+import HeroImgComp from '../components/HeroImgComp.js'
 
 const Project = () => {
     return (
       <div> 
         <Navbar />
         <HeroImg2 />
+        {/* <HeroImgComp
+          img = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcO2SRVqyafjEoYe_fDXhQ0z2PBy-P80FH0Q&s'
+          heading= "Projects"
+          text= "Some of My Recent Learning"
+        /> */}
         <Cardtype 
           header='Hey Google'
           subheader='This is a awesome card'
