@@ -8,6 +8,9 @@
     height: 90px;
     z-index: 10;
 }
+.header h1{
+    margin-left: 1rem;
+}
 
 .header-bg{
     background-color: rgba(0,0,0,0.85);
@@ -37,5 +40,9 @@
   
   .nav-menu  a:hover::after{
     width: 100%;
+  }
+
+  .nav-menu ul{
+    margin-right: 3rem;
   }
   
