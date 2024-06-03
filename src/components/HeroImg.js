@@ -13,9 +13,11 @@ let altImage = "https://skilledev.com/wp-content/uploads/2022/08/image.png";
         </div>
         <div className='content'>
           <div className='overlay'>
+              <h5> Hellooo, 
+                <br></br>I'M JASH SAVALIYA, </h5>
             <Typing text={
               [
-                { tag: "p", content: "HI, I'M JASH SAVALIYA." },
+                { tag: "p", content: "Developer." },
                 { tag: "h1", content: "Learner and Explorer." }
             ]}/>
           </div>
