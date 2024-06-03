@@ -13,7 +13,10 @@ let altImage = "https://skilledev.com/wp-content/uploads/2022/08/image.png";
         </div>
         <div className='content'>
           <div className='overlay'>
-              <h5> Hellooo, 
+              <h5> Hellooo{" "}
+                <span className="wave" role="img" aria-labelledby="wave">
+                  👋🏻
+                </span>
                 <br></br>I'M JASH SAVALIYA, </h5>
             <Typing text={
               [

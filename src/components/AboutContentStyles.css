@@ -55,3 +55,21 @@ img{
     z-index: 5;
 }
 
+.about .left .shrug-emoji {
+    font-size: 50px;
+}
+.about .left .shrug-emoji:hover {
+    transition: ease-in-out 0.5s;
+    animation: shrugAnimation 1s infinite ease-in-out;
+};
+
+@keyframes shrugAnimation {
+    0% { transform: rotate(0deg); }
+    10% { transform: rotate(15deg); }
+    20% { transform: rotate(-10deg); }
+    30% { transform: rotate(10deg); }
+    40% { transform: rotate(-5deg); }
+    50% { transform: rotate(5deg); }
+    60% { transform: rotate(0deg); }
+    100% { transform: rotate(0deg); }
+}

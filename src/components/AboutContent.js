@@ -8,7 +8,9 @@ const AboutContent = () => {
   return (
     <div className='about'>
         <div className='left'>
-            <h1>Who am I?</h1>
+            <h1>Who am I?
+                <span class="shrug-emoji">🤷🏻</span> 
+            </h1>
             <p>
                 I love learning new things as a software developer. 
                 While I'm good at backend development, I'm always eager to learn more about different areas to create cool stuff.
