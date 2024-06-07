@@ -10,12 +10,12 @@ const Project = () => {
     return (
       <div> 
         <Navbar />
-        <HeroImg2 />
-        {/* <HeroImgComp
+        {/* <HeroImg2 /> */}
+        <HeroImgComp
           img = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcO2SRVqyafjEoYe_fDXhQ0z2PBy-P80FH0Q&s'
           heading= "Projects"
           text= "Some of My Recent Learning"
-        /> */}
+        />
         {/* <Cardtype 
           header='Project Title'
           subheader='This is a awesome card'

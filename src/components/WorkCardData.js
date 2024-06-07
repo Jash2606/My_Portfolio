@@ -1,7 +1,7 @@
 import web_scrapper from '../images/web-scrapper.png';
 import vehicleServiceManagement from '../images/vehicleServiceManagement.png';
 import Quiz from '../images/Quiz.png';
-
+import quiz from '../images/quizbgImge.webp';
 const WorkCardData = [
     {
         imgsrc: web_scrapper,
@@ -10,7 +10,7 @@ const WorkCardData = [
         view: "https://github.com/Jash2606"
     },
     {
-        imgsrc: Quiz,
+        imgsrc: quiz,
         title: 'Quiz App',
         text: 'This is Simple quiz app, developed as an assignment using HTML, CSS, and JavaScript, features multiple choice questions, an interactive UI, and score tracking. It provides instant feedback and engages users with a dynamic, responsive design. Ideal for educational or casual use, it demonstrates effective front-end development and UI design practices.',
         view: "https://quiz-sst.vercel.app/"
