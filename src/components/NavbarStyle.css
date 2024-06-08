@@ -13,8 +13,11 @@
 }
 
 .header-bg{
-    background-color: rgba(0,0,0,0.85);
+    /* background-color: rgba(0,0,0,0.85); */
     transition: 0.5s;
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 30px rgba(227,228,237,0.37);
+    border: 2px solid rgba(255,255,255,0.18);
 }
 
 .nav-menu{
