@@ -5,6 +5,7 @@ import HeroImg2 from '../components/HeroImg2'
 import Cardtype from '../components/CardType.jsx'
 import Work from '../components/Work.js'
 import HeroImgComp from '../components/HeroImgComp.js'
+import Footer2 from '../components/NewFooter.js'
 
 const Project = () => {
     return (
@@ -26,7 +27,7 @@ const Project = () => {
           position='img-right'
         /> */}
         <Work />
-        <Footer />
+        <Footer2 />
     </div>
     )
 }

@@ -4,6 +4,7 @@ import Footer from '../components/Footer'
 import HeroImgComp from '../components/HeroImgComp'
 import contactimg from '../images/contact.avif'
 import Form  from '../components/Form.js'
+import Footer2 from '../components/NewFooter.js'
 const contact = () => {
   return (
     <div>
@@ -14,7 +15,7 @@ const contact = () => {
         text= "Let's Connect and Build Something Great Together!"
         />
         <Form />
-      <Footer />
+      <Footer2 />
     </div>
   )
 }
